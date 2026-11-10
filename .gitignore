@@ -1,0 +1,42 @@
+# ==========================================
+# SolidWorks - Arquivos temporários e de trava
+# ==========================================
+# Arquivos temporários criados com o modelo aberto (~$*.sld*)
+~$*.*
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+
+# Backups automáticos e recuperação do SolidWorks
+*.sld*bak
+*.bak
+*.swp
+*.err
+*.dmp
+
+# Arquivos de log de montagem, desenho e render
+*.log
+swxJrn.exe
+swxJrn.swb
+
+# Arquivos de cache e resultados de simulações / FEA / CFD
+*.cpt
+*.rld
+*.cw3
+Simulation/
+SolidWorks Simulation/
+
+# ==========================================
+# Windows & Sistema Operacional
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Arquivos de exportação pesados / renders descartáveis (opcional)
+# ==========================================
+# Descomente as linhas abaixo se não quiser versionar renders pesados ou PDFs/DWGs intermediários:
+# *.avi
+# *.mp4
